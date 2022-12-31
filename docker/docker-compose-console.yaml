@@ -37,7 +37,7 @@ services:
         volumes:
             - "couch-data:/opt/couchdb/data"
         ports:
-            - "5985:5984"
+            - "5357:5358"
         networks:
         - test
 volumes:
