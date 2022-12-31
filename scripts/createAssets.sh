@@ -66,4 +66,4 @@ jq --arg ORDERER_ROOT_CERT "$ORDERER_ROOT_CERT" \
 	${TEMPLATE_ROOT}/Organizations/orderermsp_msp.json > ${ASSETS_ROOT}/Organizations/orderermsp_msp.json
 
 cd ${WORK_AREA}
-zip -r console_assets.zip ./assets/*
+tar -cf console_assets.zip ./assets/*
